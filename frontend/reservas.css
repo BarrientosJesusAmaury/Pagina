@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1f1f;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navbar .links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .links a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-reservas {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.reserva-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.reserva-card:hover {
+    transform: scale(1.02);
+}
+
+.reserva-content {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.reserva-card img.reserva-img {
+    width: 250px; /* Aumentado de 150px a 200px */
+    height: 150px; /* Mantiene la altura */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.reserva-card h2 {
+    margin-top: 0;
+    color: #004080;
+}
+
+.reserva-card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.precio {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007b00;
+}
+
+/* Footer styles */
+.footer-donacion {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 3em;
+}
+
+.donacion-btn {
+    display: inline-block;
+    padding: 1em 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.donacion-btn:hover {
+    background-color: #0056b3;
+}
